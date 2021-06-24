@@ -1,0 +1,9 @@
+.main-content {
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+@import '../responsive.scss';
