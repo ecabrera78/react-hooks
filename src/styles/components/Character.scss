@@ -1,19 +1,11 @@
 .char-container {
-  background: linear-gradient(
-    to right top,
-    #bfa7eb,
-    #8575a1,
-    #eae3f0,
-    #8575a1,
-    #bfa7eb
-  );
+  background: #e0e0e0;
   width: 250px;
   display: block;
   overflow: hidden;
-  border: 1px solid grey;
-  border-radius: 5px;
-  box-shadow: 0 3px 5px 0 black;
-  transition: box-shadow 10s;
+  border-radius: 15px;
+  box-shadow: 9px 9px 10px rgba(136, 136, 136, 0.597),
+  -9px -9px 10px rgba(255, 255, 255, 0.499);
   margin-bottom: 20px;
   padding: 10px;
 
@@ -42,12 +34,7 @@
 }
 
 .char-container.dark {
-  background: linear-gradient(
-    to right top,
-    #62557a,
-    #514a5c,
-    #a8a3ac,
-    #514a5c,
-    #62557a
-  );
+  background: rgb(29, 29, 29);
+  box-shadow: 7px 7px 25px rgba(53, 53, 53, 0.397),
+  -7px -7px 25px rgba(110, 110, 110, 0.699);
 }
